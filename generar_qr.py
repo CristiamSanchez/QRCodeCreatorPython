@@ -9,7 +9,7 @@ import os
 from datetime import datetime
 
 # URL que se convertirá a código QR
-url = "https://cristiamsanchez.github.io/CV-ES/"
+url = "https://cristiamsanchez.github.io/CV-MonicaA/"
 
 # Crear instancia de QR Code
 qr = qrcode.QRCode(
@@ -33,7 +33,7 @@ nombre_archivo = f"qr_code_{timestamp}.png"
 # Guardar imagen
 img.save(nombre_archivo)
 
-print(f"✓ Código QR generado exitosamente")
-print(f"✓ Archivo: {nombre_archivo}")
-print(f"✓ URL: {url}")
-print(f"✓ Directorio: {os.path.abspath('.')}")
+print("Codigo QR generado exitosamente")
+print(f"Archivo: {nombre_archivo}")
+print(f"URL: {url}")
+print(f"Directorio: {os.path.abspath('.')}")
